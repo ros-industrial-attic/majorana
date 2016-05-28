@@ -1,0 +1,2 @@
+duration time_from_start
+CartesianImpedance impedance
