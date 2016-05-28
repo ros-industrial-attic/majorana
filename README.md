@@ -11,3 +11,6 @@ Start by using the [following idea](https://github.com/RCPRG-ros-pkg/cartesian_t
 The robot model is taken from [iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
 
 For interfacing with the iiwa controller: [GRL](https://github.com/ahundt/grl)
+
+#ToDo (short-term 1 week)
+- [] Add Interaction Mode messages. This will enable switching between modes (Position, CartImpedance, Gravity Compensation)
