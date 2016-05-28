@@ -8,4 +8,6 @@ Initial msg definition
 ---------------
 Start by using the [following idea](https://github.com/RCPRG-ros-pkg/cartesian_trajectory_msgs). In this repo there is definition of CartImpedance that matches best the discussion in the previous link.
 
-[iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
+The robot model is taken from [iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
+
+For interfacing with the iiwa controller: [GRL](https://github.com/ahundt/grl)
