@@ -1,0 +1,2 @@
+CartesianStiffness stiffness
+CartesianDamping   damping

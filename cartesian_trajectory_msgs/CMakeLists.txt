@@ -2,8 +2,14 @@ cmake_minimum_required(VERSION 2.8.6)
 
 project(cartesian_trajectory_msgs)
 
-find_package(catkin REQUIRED
-  COMPONENTS std_msgs geometry_msgs message_generation actionlib_msgs)
+find_package(catkin REQUIRED COMPONENTS
+std_msgs
+geometry_msgs
+message_generation
+actionlib_msgs
+roscpp
+rospy
+)
 
 add_action_files(
   DIRECTORY action
@@ -13,14 +19,11 @@ add_action_files(
 )
 
 add_message_files(FILES
-  CartesianImpedance.msg
-  CartesianTrajectory.msg
-  CartesianTrajectoryPoint.msg
-  CartesianImpedanceTrajectoryPoint.msg
-  CartesianImpedanceTrajectory.msg
-  CartesianTolerance.msg
+  CartesianStiffness.msg
+  CartesianDamping.msg
+  SetCartesianImpedance.msg
   )
-  
+
 
 generate_messages(
   DEPENDENCIES

@@ -1,2 +1,0 @@
-geometry_msgs/Wrench stiffness
-geometry_msgs/Wrench damping
