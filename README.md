@@ -12,8 +12,8 @@ Each type of message represents different parameters that need to be set for exe
 
 
 
-# Real robot tests are performed by using the following packages:
+# Real robot tests are performed on the KUKA IIWA 7 R800:
 
-The robot model is taken from [iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
+The ROS robot model is taken from [iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
 
-For interfacing with the iiwa controller: [GRL](https://github.com/ahundt/grl)
+Interface with the iiwa controller: [GRL](https://github.com/ahundt/grl)
