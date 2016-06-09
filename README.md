@@ -6,11 +6,14 @@ See [discussion regarding Cart Impedance and Cart Control msg](http://wiki.ros.o
 
 Initial msg definition
 ---------------
-Start by using the [following idea](https://github.com/RCPRG-ros-pkg/cartesian_trajectory_msgs). In this repo there is definition of CartImpedance that matches best the discussion in the previous link.
+Start by using the [following idea](https://github.com/RCPRG-ros-pkg/cartesian_trajectory_msgs) as well as other discussions and real robot definitions. Defined all the parameters for setting
+Cartesian Impedance mode via messages.
+Each type of message represents different parameters that need to be set for executing trajectories with Cartesian Impedance.
+
+
+
+# Real robot tests are performed by using the following packages:
 
 The robot model is taken from [iiwa_stack](https://github.com/SalvoVirga/iiwa_stack)
 
 For interfacing with the iiwa controller: [GRL](https://github.com/ahundt/grl)
-
-#ToDo (short-term 1 week)
-- [] Add Interaction Mode messages. This will enable switching between modes (Position, CartImpedance, Gravity Compensation)
