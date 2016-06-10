@@ -3,7 +3,7 @@
 
 CartesianStiffness   stiffness
 CartesianDamping     damping
-MaxCartesianVelocity maxVelocity
-MaxControlForce      maxCtrlForce
-MaxPathDeviation     maxPathDeviation
-NullSpace            nullSpaceParams
+MaxCartesianVelocity max_cart_vel
+MaxControlForce      max_ctrl_force
+MaxPathDeviation     max_path_deviation
+NullSpace            null_space_params

@@ -5,8 +5,8 @@
 # http://docs.ros.org/api/geometry_msgs/html/msg/Vector3.html
 
 
-# maximum deviation from set goal in mm
-geometry_msgs/Vector3 translational
+# maximum deviation from set goal in m
+geometry_msgs/Vector3 translation
 
 # maximum deviation from set goal in radians
-geometry_msgs/Vector3 rotational
+geometry_msgs/Vector3 rotation

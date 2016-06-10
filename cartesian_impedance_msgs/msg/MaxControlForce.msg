@@ -9,9 +9,8 @@
 # http://docs.ros.org/api/geometry_msgs/html/msg/Vector3.html
 
 # xyz: Newtons  (all >=0)
-geometry_msgs/Vector3 translational
 # rpy:Nm
-geometry_msgs/Vector3 rotational
+geometry_msgs/Wrench set
 
-# stop if max control force is exceeded
-std_msgs/Bool maxControlForceExceededStop
+# handler if max control force is exceeded
+ MaxCtrlForceExceeded exceeded_action

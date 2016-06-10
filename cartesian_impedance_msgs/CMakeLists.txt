@@ -19,6 +19,8 @@ add_message_files(DIRECTORY msg
   MaxControlForce.msg
   MaxPathDeviation.msg
   NullSpace.msg
+  CartesianImpedanceErrorCodes.msg
+  MaxCtrlForceExceeded.msg
   SetCartesianImpedance.msg
   )
 

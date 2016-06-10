@@ -4,8 +4,12 @@
 # for more info on Float64 messages please see the following link:
 # http://docs.ros.org/api/std_msgs/html/msg/Float64.html
 
+
+string[] link_names
+
+# without unit: Lehr’s damping ratio
 # must be between 0.3-1.0 suggested is 0.7
-std_msgs/Float64 nullspaceDamping
+std_msgs/Float64[] damping
 
 # [Nm/rad] must be => 0.0
-std_msgs/Float64 nullspaceStiffness
+std_msgs/Float64[] stiffness

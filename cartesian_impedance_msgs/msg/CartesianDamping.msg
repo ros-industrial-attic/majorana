@@ -5,7 +5,13 @@
 # http://docs.ros.org/api/geometry_msgs/html/msg/Vector3.html
 
 
-# [N/m]
+# Spring damping (type: double)
+# The spring damping determines the extent to which the virtual springs
+# oscillate after deflection.
+# For all degrees of freedom (without unit: Lehr’s damping ratio): https://en.wikipedia.org/wiki/Damping_ratio
+
+
+# [ratio:0.1-1.0]
 geometry_msgs/Vector3 translational
-# [Nm/rad]
+# [ratio:0.1-1.0]
 geometry_msgs/Vector3 rotational
