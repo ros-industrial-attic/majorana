@@ -5,12 +5,6 @@
 #  1. geometry_msgs/Vector3 linear
 #  2. geometry_msgs/Vector3 angular
 
-# for more info on Twist messages please see the following link:
-# http://docs.ros.org/api/geometry_msgs/html/msg/Twist.html
-
-# Vector3 message info:
-# http://docs.ros.org/api/geometry_msgs/html/msg/Vector3.html
-
 # trans: [m/s]
 # rotation: [rad/s]
 geometry_msgs/Twist set
