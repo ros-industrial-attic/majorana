@@ -11,8 +11,8 @@
 string[] link_names
 
 # [Nm/rad] must be => 0.0
-std_msgs/Float64[] stiffness
+float64[] stiffness
 
 # without unit: Lehr’s damping ratio
 # must be between 0.3-1.0 suggested is 0.7
-std_msgs/Float64[] damping
+float64[] damping

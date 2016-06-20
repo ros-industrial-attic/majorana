@@ -15,6 +15,7 @@ add_message_files(DIRECTORY msg
   FILES
   CartesianStiffness.msg
   CartesianDamping.msg
+  CartesianDampingRatio.msg
   MaxCartesianVelocity.msg
   MaxControlForce.msg
   MaxPathDeviation.msg
