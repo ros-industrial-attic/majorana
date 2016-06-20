@@ -7,7 +7,7 @@
 # oscillate after deflection.
 # For all degrees of freedom (without unit: Lehr’s damping ratio)
 
-# [Ns/m]
+# [ratio:0.1-1.0]
 geometry_msgs/Vector3 translational
-# [Ns/rad]
+# [ratio:0.1-1.0]
 geometry_msgs/Vector3 rotational

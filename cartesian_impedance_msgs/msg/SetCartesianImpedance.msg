@@ -3,10 +3,8 @@
 
 string                 tool
 CartesianStiffness     stiffness
-#use this if the damping is in Ns/m, Ns/rad
-CartesianDamping       damping
 #use this if the damping parameters are defined as ratios (Lehr's damping ratio)
-CartesianDampingRatio  damping_ratio
+CartesianDamping       damping
 MaxCartesianVelocity   max_cart_vel
 MaxControlForce        max_ctrl_force
 MaxPathDeviation       max_path_deviation
