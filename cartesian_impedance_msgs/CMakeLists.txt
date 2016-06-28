@@ -22,11 +22,14 @@ add_message_files(DIRECTORY msg
   CartesianImpedanceErrorCodes.msg
   MaxCtrlForceExceeded.msg
   SetCartesianImpedance.msg
+  SetCartesianForceCtrl.msg
+  CartesianForceCtrlErrorCodes.msg
   )
 
 add_service_files(DIRECTORY srv
       FILES
       ConfigureCartesianImpedance.srv
+      ConfigureForceControl.srv
 )
 
 

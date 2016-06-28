@@ -1,4 +1,4 @@
-cartesian_impedance_msgs/SetCartesianImpedance cartImpedanceMode
+cartesian_impedance_msgs/SetCartesianImpedance cart_impedance_params
 ---
 bool success
 CartesianImpedanceErrorCodes error
